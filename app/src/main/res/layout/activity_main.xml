@@ -7,6 +7,9 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_dme"/>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvFolder"
         android:layout_width="match_parent"
